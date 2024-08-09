@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-31T22:19:57 PDT" name="Cross-Platform" finished-at="2024-07-31T22:20:23 PDT" duration-ms="26107">
+    <groups>
+    </groups>
+    <test started-at="2024-07-31T22:19:57 PDT" name="BStackDemo-0" finished-at="2024-07-31T22:20:14 PDT" duration-ms="16259">
+      <class name="com.browserstack.BStackDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.BStackDemoTest@2516fc68]" started-at="2024-07-31T22:19:57 PDT" name="setUp" finished-at="2024-07-31T22:20:06 PDT" duration-ms="8892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:com.browserstack.BStackDemoTest@2516fc68]" started-at="2024-07-31T22:20:06 PDT" name="addProductToCart" finished-at="2024-07-31T22:20:11 PDT" duration-ms="5128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@2516fc68]" started-at="2024-07-31T22:20:12 PDT" name="tearDown" finished-at="2024-07-31T22:20:14 PDT" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.BStackDemoTest -->
+    </test> <!-- BStackDemo-0 -->
+    <test started-at="2024-07-31T22:19:57 PDT" name="BStackDemo-1" finished-at="2024-07-31T22:20:15 PDT" duration-ms="17302">
+      <class name="com.browserstack.BStackDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.BStackDemoTest@42d236fb]" started-at="2024-07-31T22:19:57 PDT" name="setUp" finished-at="2024-07-31T22:20:08 PDT" duration-ms="10491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:com.browserstack.BStackDemoTest@42d236fb]" started-at="2024-07-31T22:20:08 PDT" name="addProductToCart" finished-at="2024-07-31T22:20:13 PDT" duration-ms="4769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@42d236fb]" started-at="2024-07-31T22:20:13 PDT" name="tearDown" finished-at="2024-07-31T22:20:15 PDT" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.BStackDemoTest -->
+    </test> <!-- BStackDemo-1 -->
+    <test started-at="2024-07-31T22:19:57 PDT" name="BStackDemo-2" finished-at="2024-07-31T22:20:23 PDT" duration-ms="26103">
+      <class name="com.browserstack.BStackDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.BStackDemoTest@46044faa]" started-at="2024-07-31T22:19:57 PDT" name="setUp" finished-at="2024-07-31T22:20:18 PDT" duration-ms="20361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:com.browserstack.BStackDemoTest@46044faa]" started-at="2024-07-31T22:20:18 PDT" name="addProductToCart" finished-at="2024-07-31T22:20:22 PDT" duration-ms="3940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@46044faa]" started-at="2024-07-31T22:20:22 PDT" name="tearDown" finished-at="2024-07-31T22:20:23 PDT" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.BStackDemoTest -->
+    </test> <!-- BStackDemo-2 -->
+  </suite> <!-- Cross-Platform -->
+</testng-results>
