@@ -1,4 +1,4 @@
-# testng-browserstack
+# Selenium-testng-browserstackdemo
 
 [TestNG](http://testng.org) Integration with BrowserStack.
 
