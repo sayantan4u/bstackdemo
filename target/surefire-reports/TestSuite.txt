@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.748 sec - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.793 sec <<< FAILURE! - in TestSuite
+addProductToCart(com.browserstack.BStackDemoTest)  Time elapsed: 2.996 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.5', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6c2b10b6518481423896dd6b801ea933f3f7355, findElement {value=//*[@id="1"]/p, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, optimalHubUrl: hub-usw.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: b6c2b10b6518481423896dd6b80..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: b6c2b10b6518481423896dd6b801ea933f3f7355
+	at com.browserstack.BStackDemoTest.addProductToCart(BStackDemoTest.java:18)
+

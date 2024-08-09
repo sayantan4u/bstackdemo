@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.748" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="24.793" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="22.0.2+9-70"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/sayantan/Documents/Projects/testng-browserstack-master"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sayantan/git/bstackdemo"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/sayantan/Documents/Projects/testng-browserstack-master"/>
+    <property name="user.dir" value="/Users/sayantan/git/bstackdemo"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
     <property name="os.arch" value="x86_64"/>
@@ -23,7 +23,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/sayantan/Documents/Projects/TestAutomationProjects/workspaceSTS4-4.24.0.RELEASE/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf14110819421238281926.tmp"/>
+    <property name="classworlds.conf" value="/Users/sayantan/Documents/Projects/TestAutomationProjects/workspaceSTS4-4.24.0.RELEASE/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf9264839978368328592.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/sayantan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
@@ -50,18 +50,36 @@
     <property name="java.version" value="22.0.2"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/sayantan/Documents/Projects/testng-browserstack-master/EMBEDDED"/>
+    <property name="maven.home" value="/Users/sayantan/git/bstackdemo/EMBEDDED"/>
     <property name="style.color" value="always"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="m2e.build.project.data.socket.port" value="62994"/>
+    <property name="m2e.build.project.data.socket.port" value="53745"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest" time="4.141"/>
-  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest" time="4.902"/>
-  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest" time="4.034"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest" time="2.996">
+    <failure message="For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.5&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b6c2b10b6518481423896dd6b801ea933f3f7355, findElement {value=//*[@id=&quot;1&quot;]/p, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, optimalHubUrl: hub-usw.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: b6c2b10b6518481423896dd6b80..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}&#10;Session ID: b6c2b10b6518481423896dd6b801ea933f3f7355" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.5', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6c2b10b6518481423896dd6b801ea933f3f7355, findElement {value=//*[@id="1"]/p, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, optimalHubUrl: hub-usw.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: b6c2b10b6518481423896dd6b80..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: b6c2b10b6518481423896dd6b801ea933f3f7355
+	at com.browserstack.BStackDemoTest.addProductToCart(BStackDemoTest.java:18)
+</failure>
+    <system-err><![CDATA[Aug 08, 2024 7:29:26 PM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException
+Aug 08, 2024 7:29:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 15
+Aug 08, 2024 7:29:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 15.6.1. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest" time="4.208"/>
+  <testcase name="addProductToCart" classname="com.browserstack.BStackDemoTest" time="4.506"/>
 </testsuite>

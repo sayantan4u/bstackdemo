@@ -9,17 +9,39 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Cross-Platform</th></tr>
-<tr><td><a href="#t0">BStackDemo-0</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,259</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">BStackDemo-1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,302</td><td></td><td></td></tr>
-<tr><td><a href="#t2">BStackDemo-2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">26,103</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">59,664</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">BStackDemo-1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">13,439</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">BStackDemo-0</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">14,482</td><td></td><td></td></tr>
+<tr><td><a href="#t2">BStackDemo-2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">24,239</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">52,160</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cross-Platform</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BStackDemo-0 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.browserstack.BStackDemoTest</td><td><a href="#m0">addProductToCart</a></td><td rowspan="1">1722489606772</td><td rowspan="1">5128</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">BStackDemo-1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.browserstack.BStackDemoTest</td><td><a href="#m1">addProductToCart</a></td><td rowspan="1">1722489608377</td><td rowspan="1">4769</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">BStackDemo-2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.browserstack.BStackDemoTest</td><td><a href="#m2">addProductToCart</a></td><td rowspan="1">1722489618239</td><td rowspan="1">3940</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cross-Platform</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BStackDemo-1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.browserstack.BStackDemoTest</td><td><a href="#m0">addProductToCart</a></td><td rowspan="1">1723170567084</td><td rowspan="1">2883</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">BStackDemo-0 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.browserstack.BStackDemoTest</td><td><a href="#m1">addProductToCart</a></td><td rowspan="1">1723170566416</td><td rowspan="1">4281</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">BStackDemo-2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.browserstack.BStackDemoTest</td><td><a href="#m2">addProductToCart</a></td><td rowspan="1">1723170576506</td><td rowspan="1">4415</td></tr></tbody>
 </table>
-<h2>BStackDemo-0</h2><h3 id="m0">com.browserstack.BStackDemoTest#addProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>BStackDemo-1</h2><h3 id="m1">com.browserstack.BStackDemoTest#addProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BStackDemo-1</h2><h3 id="m0">com.browserstack.BStackDemoTest#addProductToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.5&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6c2b10b6518481423896dd6b801ea933f3f7355, findElement {value=//*[@id=&quot;1&quot;]/p, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, optimalHubUrl: hub-usw.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: b6c2b10b6518481423896dd6b80..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: b6c2b10b6518481423896dd6b801ea933f3f7355
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.browserstack.BStackDemoTest.addProductToCart(BStackDemoTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BStackDemo-0</h2><h3 id="m1">com.browserstack.BStackDemoTest#addProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h2>BStackDemo-2</h2><h3 id="m2">com.browserstack.BStackDemoTest#addProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
